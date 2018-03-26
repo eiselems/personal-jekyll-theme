@@ -143,7 +143,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
     shuffle(myQuotes)
   {% endif %}
 
-    $(".intro-text").typed({
+    $(".intro-text-typed").typed({
       strings: myQuotes,
       typeSpeed: {{ site.type-speed }},
       backDelay: {{ site.delete-delay }},
